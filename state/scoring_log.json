@@ -1,0 +1,136 @@
+{
+  "2026-10-05": [
+    {
+      "audience": "both",
+      "class": "industry_news",
+      "company_source": false,
+      "final": 0.597,
+      "hn": false,
+      "label": "notable",
+      "n_news": 2,
+      "official": false,
+      "title": "OpenAI is sticking more ads in ChatGPT"
+    },
+    {
+      "audience": "enterprise",
+      "class": "industry_news",
+      "company_source": false,
+      "final": 0.526,
+      "hn": false,
+      "label": "watch",
+      "n_news": 1,
+      "official": false,
+      "title": "HackerRank\u2019s AI interviewer offers a glimpse into what job interviews could become"
+    },
+    {
+      "audience": "enterprise",
+      "class": "industry_news",
+      "company_source": false,
+      "final": 0.472,
+      "hn": false,
+      "label": "watch",
+      "n_news": 1,
+      "official": false,
+      "title": "Researchers are tracking a Chinese AI \u2018agent fleet\u2019"
+    },
+    {
+      "audience": "enterprise",
+      "class": "industry_news",
+      "company_source": false,
+      "final": 0.422,
+      "hn": false,
+      "label": "watch",
+      "n_news": 1,
+      "official": false,
+      "title": "Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost"
+    },
+    {
+      "audience": "both",
+      "class": "industry_news",
+      "company_source": false,
+      "final": 0.388,
+      "hn": false,
+      "label": "watch",
+      "n_news": 1,
+      "official": false,
+      "title": "Sam Altman says \u2018some bad things\u2019 will happen, but AI is totally worth it"
+    },
+    {
+      "audience": "everyday",
+      "class": "industry_news",
+      "company_source": false,
+      "final": 0.363,
+      "hn": false,
+      "label": "watch",
+      "n_news": 2,
+      "official": false,
+      "title": "An open-source tool lets you delete 12GB of Apple Intelligence data on macOS"
+    },
+    {
+      "audience": "everyday",
+      "class": "industry_news",
+      "company_source": false,
+      "final": 0.338,
+      "hn": false,
+      "label": "skip",
+      "n_news": 1,
+      "official": false,
+      "title": "OpenAI PR tells journalist to \u2018move on\u2019 while asking Sam Altman about a ChatGPT user\u2019s suicide"
+    },
+    {
+      "audience": "narrow",
+      "class": "opinion_analysis",
+      "company_source": false,
+      "final": 0.217,
+      "hn": false,
+      "label": "skip",
+      "n_news": 1,
+      "official": false,
+      "title": "All the drama around AI\u2019s takeover of mathematics"
+    },
+    {
+      "audience": "enterprise",
+      "class": "pr",
+      "company_source": false,
+      "final": 0.124,
+      "hn": false,
+      "label": "filtered",
+      "n_news": 1,
+      "official": false,
+      "title": "Connecting AI agents to enterprise knowledge"
+    },
+    {
+      "audience": "everyday",
+      "class": "pr",
+      "company_source": false,
+      "final": 0.083,
+      "hn": false,
+      "label": "filtered",
+      "n_news": 1,
+      "official": false,
+      "title": "Hot Girl Hotline is like \u2018Dear Abby\u2019 for the AI era"
+    },
+    {
+      "audience": "everyday",
+      "class": "pr",
+      "company_source": false,
+      "final": 0.078,
+      "hn": false,
+      "label": "filtered",
+      "n_news": 1,
+      "official": false,
+      "title": "Instinct brings its AI agent to group chats, even for friends without an account"
+    },
+    {
+      "audience": "narrow",
+      "class": "pr",
+      "company_source": false,
+      "final": 0.037,
+      "hn": false,
+      "label": "filtered",
+      "n_news": 1,
+      "official": false,
+      "title": "The final Disrupt Stage lineup: Three days of conversations you won\u2019t hear anywhere outside of TechCrunch Disrupt 2026"
+    }
+  ]
+}
