@@ -1,23 +1,26 @@
 # One RSS/Atom URL per line. Lines starting with # are ignored.
-# Verify each URL once; broken feeds are reported at the bottom of the daily email.
-
+# Broken feeds are reported at the bottom of the daily email.
+ 
 # AI - news
 https://techcrunch.com/category/artificial-intelligence/feed/
 https://venturebeat.com/category/ai/feed/
 https://www.theverge.com/rss/ai-artificial-intelligence/index.xml
 https://www.technologyreview.com/topic/artificial-intelligence/feed
 https://arstechnica.com/ai/feed/
-
+ 
 # AI - primary sources
 https://openai.com/news/rss.xml
+https://deepmind.google/blog/rss.xml
 https://blog.google/technology/ai/rss/
-https://blogs.microsoft.com/ai/feed/
 https://aws.amazon.com/blogs/machine-learning/feed/
-
+# Microsoft (UNVERIFIED: replaces the broken blogs.microsoft.com/ai/feed)
+https://blogs.microsoft.com/feed/
+ 
 # SaaS / enterprise software
 https://www.saastr.com/feed/
 https://techcrunch.com/category/enterprise/feed/
 https://www.snowflake.com/en/blog/feed/
-
+ 
 # Signal filter
 https://hnrss.org/frontpage?points=300
+ 
