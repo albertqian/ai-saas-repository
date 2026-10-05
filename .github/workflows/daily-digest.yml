@@ -35,11 +35,13 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
         run: python agent.py
 
-      - name: Save seen-article state
+      - name: Save state (seen stories and scoring log)
         run: |
           git config user.name "digest-bot"
           git config user.email "digest-bot@users.noreply.github.com"
-          git add state/seen.json
-          git diff --cached --quiet || (git commit -m "Update seen state" && git push)
+          git add state
+          git diff --cached --quiet || (git commit -m "Update state" && git push)
