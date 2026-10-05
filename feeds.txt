@@ -1,26 +1,31 @@
-# One RSS/Atom URL per line. Lines starting with # are ignored.
-# Broken feeds are reported at the bottom of the daily email.
- 
-# AI - news
-https://techcrunch.com/category/artificial-intelligence/feed/
-https://venturebeat.com/category/ai/feed/
-https://www.theverge.com/rss/ai-artificial-intelligence/index.xml
-https://www.technologyreview.com/topic/artificial-intelligence/feed
-https://arstechnica.com/ai/feed/
- 
-# AI - primary sources
-https://openai.com/news/rss.xml
-https://deepmind.google/blog/rss.xml
-https://blog.google/technology/ai/rss/
-https://aws.amazon.com/blogs/machine-learning/feed/
-# Microsoft (UNVERIFIED: replaces the broken blogs.microsoft.com/ai/feed)
-https://blogs.microsoft.com/feed/
- 
-# SaaS / enterprise software
-https://www.saastr.com/feed/
-https://techcrunch.com/category/enterprise/feed/
-https://www.snowflake.com/en/blog/feed/
- 
-# Signal filter
-https://hnrss.org/frontpage?points=300
- 
+# One feed per line:  URL | type
+# Types (default is news if omitted):
+#   news        independent media. Counts toward coverage.
+#   primary     a company's own blog or newsroom. Confirms a story but never counts as independent coverage.
+#   official    a regulator or standards body. Treated as its own source of truth.
+#   aggregator  Hacker News style. Adds a small attention bonus only.
+# Broken feeds are listed at the bottom of the daily email.
+
+# --- Independent media (AI) ---
+https://techcrunch.com/category/artificial-intelligence/feed/ | news
+https://venturebeat.com/category/ai/feed/ | news
+https://www.theverge.com/rss/ai-artificial-intelligence/index.xml | news
+https://www.technologyreview.com/topic/artificial-intelligence/feed | news
+https://arstechnica.com/ai/feed/ | news
+
+# --- Independent media (SaaS / enterprise) ---
+https://www.saastr.com/feed/ | news
+https://techcrunch.com/category/enterprise/feed/ | news
+
+# --- Company sources ---
+https://openai.com/news/rss.xml | primary
+https://deepmind.google/blog/rss.xml | primary
+https://blog.google/technology/ai/rss/ | primary
+https://aws.amazon.com/blogs/machine-learning/feed/ | primary
+https://blogs.microsoft.com/feed/ | primary
+https://www.snowflake.com/en/blog/feed/ | primary
+
+# --- Attention signal ---
+https://hnrss.org/frontpage?points=300 | aggregator
+
+# --- Regulators / standards (add verified URLs here, tagged official) ---
