@@ -1,0 +1,45 @@
+name: Daily LinkedIn Digest
+
+on:
+  schedule:
+    # Two crons because GitHub cron is UTC-only and ignores DST.
+    # agent.py only proceeds when it is actually 8am in Los Angeles.
+    - cron: "0 15 * * *"   # 8am PDT (Mar-Nov)
+    - cron: "0 16 * * *"   # 8am PST (Nov-Mar)
+  workflow_dispatch:       # manual run button, bypasses the 8am gate
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-digest
+  cancel-in-progress: false
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run agent
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+        run: python agent.py
+
+      - name: Save seen-article state
+        run: |
+          git config user.name "digest-bot"
+          git config user.email "digest-bot@users.noreply.github.com"
+          git add state/seen.json
+          git diff --cached --quiet || (git commit -m "Update seen state" && git push)
