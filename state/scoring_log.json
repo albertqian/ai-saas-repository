@@ -132,5 +132,139 @@
       "official": false,
       "title": "The final Disrupt Stage lineup: Three days of conversations you won\u2019t hear anywhere outside of TechCrunch Disrupt 2026"
     }
+  ],
+  "2026-10-07": [
+    {
+      "audience": "both",
+      "class": "industry_news",
+      "company_source": false,
+      "final": 0.684,
+      "hn": false,
+      "label": "notable",
+      "n_news": 2,
+      "official": false,
+      "title": "Everything announced at Microsoft\u2019s Surface Laptop Ultra event"
+    },
+    {
+      "audience": "both",
+      "class": "industry_news",
+      "company_source": false,
+      "final": 0.651,
+      "hn": false,
+      "label": "notable",
+      "n_news": 2,
+      "official": false,
+      "title": "Google\u2019s new SynthID website can identify AI-generated media"
+    },
+    {
+      "audience": "both",
+      "class": "industry_news",
+      "company_source": false,
+      "final": 0.622,
+      "hn": false,
+      "label": "notable",
+      "n_news": 1,
+      "official": false,
+      "title": "\u201cSoftware is over\u201d: Bold AI developer takes aim at Adobe with open source clones"
+    },
+    {
+      "audience": "both",
+      "class": "industry_news",
+      "company_source": false,
+      "final": 0.593,
+      "hn": false,
+      "label": "watch",
+      "n_news": 1,
+      "official": false,
+      "title": "Microsoft is giving Copilot more control over Windows and your files"
+    },
+    {
+      "audience": "both",
+      "class": "industry_news",
+      "company_source": false,
+      "final": 0.522,
+      "hn": false,
+      "label": "watch",
+      "n_news": 1,
+      "official": false,
+      "title": "ChatGPT\u2019s \u2018Intelligent UI\u2019 update fills its responses with pictures, charts, and buttons"
+    },
+    {
+      "audience": "everyday",
+      "class": "research",
+      "company_source": false,
+      "final": 0.488,
+      "hn": false,
+      "label": "watch",
+      "n_news": 1,
+      "official": false,
+      "title": "ChatGPT for Teens keeps teens talking, even during mental health crises"
+    },
+    {
+      "audience": "everyday",
+      "class": "industry_news",
+      "company_source": false,
+      "final": 0.413,
+      "hn": false,
+      "label": "watch",
+      "n_news": 2,
+      "official": false,
+      "title": "Muse launches on the iPad"
+    },
+    {
+      "audience": "everyday",
+      "class": "industry_news",
+      "company_source": false,
+      "final": 0.405,
+      "hn": false,
+      "label": "watch",
+      "n_news": 1,
+      "official": false,
+      "title": "Fraudster jailed for using 10K bots and AI songs to outstream Taylor Swift"
+    },
+    {
+      "audience": "narrow",
+      "class": "industry_news",
+      "company_source": false,
+      "final": 0.388,
+      "hn": false,
+      "label": "watch",
+      "n_news": 1,
+      "official": false,
+      "title": "Surface RTX Spark Dev Box is available for preorder for $5,999"
+    },
+    {
+      "audience": "both",
+      "class": "opinion_analysis",
+      "company_source": false,
+      "final": 0.311,
+      "hn": false,
+      "label": "skip",
+      "n_news": 1,
+      "official": false,
+      "title": "Tony Fadell on why the first wave of AI gadgets failed \u2014 and what comes next"
+    },
+    {
+      "audience": "everyday",
+      "class": "pr",
+      "company_source": true,
+      "final": 0.094,
+      "hn": false,
+      "label": "filtered",
+      "n_news": 1,
+      "official": false,
+      "title": "ChatGPT is getting college planning tools"
+    },
+    {
+      "audience": "narrow",
+      "class": "pr",
+      "company_source": false,
+      "final": 0.083,
+      "hn": false,
+      "label": "filtered",
+      "n_news": 1,
+      "official": false,
+      "title": "Healthleap raises $38M for its AI that flags hospital patients who may need a closer look"
+    }
   ]
 }
